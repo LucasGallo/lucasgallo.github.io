@@ -17,11 +17,18 @@ body{
 	width: auto;   
 }
 
-body a{
-	text-decoration: none;
+a{
+	color: white;
 }
 
-body a:hover{
+
+
+#header_desktop a{
+	text-decoration: none;
+	color: white;
+}
+
+#header_desktop a:hover{
 	text-decoration: underline;
 }
 
