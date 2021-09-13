@@ -1,0 +1,322 @@
+@media (min-device-width: 1280px) {
+
+@keyframes loading{
+	0% {
+		opacity: 0;
+	}
+
+
+	100% {
+		opacity: 1;
+	}
+}
+
+
+body{
+	background-color: #1d1b1e; 
+	width: auto;   
+}
+
+body a{
+	text-decoration: none;
+}
+
+body a:hover{
+	text-decoration: underline;
+}
+
+div#header_desktop{
+
+	display: block;
+	position: fixed;
+	width: 100%;
+	z-index: 2;
+	background-color: #1d1b1e; 
+	height: 55px;
+	border-bottom: 3px solid #f2f2f2 ;
+
+}
+
+#barre_desktop p{
+	font-family: 'Conv_SportingGrotesque-Regular';
+	font-size: 1em;
+	color: white;
+	margin-left: 20px;
+	display: inline-block;
+	margin-top: 20px;	
+}
+
+ul#menu_desktop{
+	float: right;
+	text-align: right;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+}
+
+#menu_desktop li{
+	
+	font-family: 'Conv_SportingGrotesque-Regular';
+	font-size: 1em;
+	display: inline-block;
+	color: white;
+	margin-right: 20px;
+   /* padding-top: 16px;*/
+}
+
+#menu_desktop li:hover{
+	text-decoration: underline;
+}
+
+
+
+div#main {
+	padding-top: 2%;
+/*	margin-right: 18px;
+	margin-left: 18px;*/
+	width: auto;
+	/*background-color: red;*/
+	color : WHITE ;
+}
+
+.folio{
+	width: 100%;
+	height: 100%;
+	justify-content: space-between;
+	animation-name: loading;
+	animation-duration: 1s;
+	margin-bottom: 20px;
+}
+
+/*CONTENUE POUR flex SOUS TITRE*/
+.folio_contenue{
+	display: flex;
+	align-items: flex-end;
+	
+}
+
+
+.button{
+/*display: none;*/
+
+	
+}
+
+.folio_swiper{
+	width: 65%;
+    margin-left: 9px;
+    
+}
+
+
+/*FAIRE EN SORTE QUE SWIPER PAS BUG*/
+.folio_solo{
+	width: 65%;
+}
+
+.img_solo{
+	width: 50%;
+}
+
+img.solo{
+	width: 80%;
+    }
+          
+.folio img{
+	max-width: 100%;
+}
+
+
+/*MOVING TITLE*/
+
+.scroll-loop-container{
+  left:0px;
+  height: 220px;
+  position: relative;
+  width:100%;
+  overflow: hidden;
+   border-top: 3px solid #f2f2f2 ;
+  border-bottom: : 3px solid #f2f2f2 ;
+  display: inline-block;
+
+
+}
+
+#scroll-loop{
+    -webkit-animation: marquee-like 10s linear 1s infinite;    
+    animation: marquee-like 10s linear 1s infinite;
+    display: inline-block;
+    white-space:nowrap;
+overflow:hidden;
+
+}
+
+#scroll-loop p{
+
+    white-space:nowrap;
+overflow:hidden;
+
+}
+
+/*remove p*/
+.texte-titre {
+  width:100%;
+  padding-top: 20px;
+  /*padding-left: 10px;*/
+  margin:0 auto;
+  font-size: 12em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-family: 'Conv_BluuNext-Titling';
+  font-weight: 300;
+  display: inline-block;
+
+}
+
+
+@keyframes marquee-like{
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+
+p.description{
+	font-family: 'Conv_SportingGrotesque-Regular';
+    font-size: 0.8em;
+	/*width: 90%;*/
+	margin-left: 5%;
+	margin-right: 3%;
+	line-height: 1.4em;
+
+
+}
+
+p.tags{
+	font-family: 'Conv_SportingGrotesque-Regular';
+    font-style: italic;
+	font-size: 0.7em;
+	margin-left: 5%;
+    /*text-align: right;*/
+	/*margin-top: -20px;*/
+    
+}
+
+/*
+____   ______________    _____  _________  
+\   \ /   /\______   \  /  _  \ \_   ___ \ 
+ \   Y   /  |       _/ /  /_\  \/    \  \/ 
+  \     /   |    |   \/    |    \     \____
+   \___/    |____|_  /\____|__  /\______  /
+                   \/         \/        \/ 
+
+
+*/
+
+	/*.sq{
+		width: 20%;
+		float: left;
+	}
+*/
+
+.vrac-container{
+padding-top: 55px;
+/*display: flex;
+flex-direction: row;
+justify-content: space-around;*/
+width: 60%;
+margin: auto;
+	}
+
+#vrac-item{
+text-align: center;
+padding-top: 10px;
+
+
+	}
+
+
+
+.vrac-hidden img{
+width: 80%;
+margin: auto;
+padding-top: 10px;
+	}
+
+/*.1{
+display: inline;
+
+	}*/
+
+	.vrac-container p{
+
+/*display: flex;
+flex-direction: row;
+justify-content: space-around;*/
+text-align: center;
+font-family: 'Conv_SportingGrotesque-Regular';
+display: inline;
+	}
+
+	.vrac-container h2{
+
+/*display: flex;
+flex-direction: row;
+justify-content: space-around;*/
+text-align: center;
+font-family: 'Conv_SportingGrotesque-Regular';
+font-weight: bold;
+display: inline;
+	}
+
+#vrac-item:hover{
+	text-decoration: underline;
+	}
+
+
+/*.__        _____       
+|__| _____/ ____\____  
+|  |/    \   __\/  _ \ 
+|  |   |  \  | (  <_> )
+|__|___|  /__|  \____/ 
+        \/             */
+
+#infos {
+padding-top: 55px;
+display: flex;
+flex-direction: row;
+/*flex-wrap: nowrap;*/
+justify-content: space-around;
+width: 90%;
+margin: auto;
+	}
+
+.info2 {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items:  center;
+	}	
+
+/*div.info1 {
+width: 100%;
+margin: 0 auto;
+	}
+
+div.info1 img {
+width: 100%
+margin: 0 auto;
+	}
+*/
+/*
+.info2 img {
+width: 50%;
+margin: auto;
+
+	}
+*/
+
+#infos img {max-width:90%;}
