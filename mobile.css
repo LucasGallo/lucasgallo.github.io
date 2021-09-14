@@ -182,6 +182,12 @@ overflow:hidden;
 
 }
 
+.folio a{
+color: white;
+text-decoration: underline;
+	
+}
+
 
 @keyframes marquee-like{
   0% {

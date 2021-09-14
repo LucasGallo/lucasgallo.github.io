@@ -19,6 +19,7 @@ body{
 
 body a{
 	text-decoration: none;
+
 }
 
 body a:hover{
@@ -173,6 +174,12 @@ overflow:hidden;
   font-weight: 300;
   display: inline-block;
 
+}
+
+.folio a{
+color: white;
+text-decoration: underline;
+	
 }
 
 
