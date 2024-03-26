@@ -328,4 +328,45 @@ margin: auto;
 	}
 */
 
-#infos img {max-width:90%;}
+
+
+#intro{
+
+}
+
+#intro img{
+position: absolute;
+width: 100%;
+margin-top: -50px;
+/*opacity: 50%;*/
+
+}
+/*body {
+  overflow: hidden; /* Hide scrollbars 
+} */
+
+::-webkit-scrollbar {
+  display: none;
+
+}
+/*
+#introfull{
+	width: auto;
+	height: 200px;
+} */
+
+
+.click{
+	position: absolute;
+    z-index: 10;
+	height: 40%;
+	width: 58%;
+	background-color: red;
+/*	margin-top: 20%;*/
+
+	top: 35%;
+  left: 21%;
+  opacity: 0%;
+ 
+
+}

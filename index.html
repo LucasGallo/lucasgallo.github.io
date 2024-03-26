@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<meta charset="UTF-8">
+
+	<head>
+
+		<title>Lucas Gallo</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Portfolio Lucas Gallo"/>
+		<meta name="keywords" content="gallo lucas,lucas gallo,design,graphic,graphisme,portfolio"/>
+		<link rel="icon" type="image/png" href="img/favicon.png" />
+		<link rel="stylesheet" href="master.css">
+		<link rel="stylesheet" href="dist/css/swiper-bundle.css">
+		<script src="dist/js/jquery-3.5.1.min.js"></script>
+
+	</head>
+	
+<body>
+<div id="introfull">
+	<div id="intro">
+		<img src="img\WEB 20s_240325.gif">
+	</div>
+	
+	<a class="boxlien" href="main.html"><div class="click"></div></a>
+</div>
+</body>
+
+<script src="dist/js/swiper-bundle.js"></script>
+
+
+	 <!-- Initialize Swiper -->
+<script>
+		var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 1,
+		spaceBetween: 0,
+		loop: true,
+		observer: true,
+        observeParents: true,
+
+		pagination: {
+			el: '.swiper-pagination',
+        type: 'progressbar',
+      },
+
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+
+		});
+
+</script>
+    
+<script src="https://player.vimeo.com/api/player.js"></script>
+
+<script>
+		$( ".button" ).hide();
+		$(".scroll-loop-container").click(function(){
+		  $(".button").toggle(300);
+		});
+</script>
